@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ebe8e8;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top p {
+    padding: 0;
+    margin: 0;
+}
+
+#image {
+    width: 50%;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.content {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 8px;
+}
+
+ul {
+    margin-top: 0;
+    background-color: #fffbff;
+    border-radius: 8px;
+}
+
+li {
+    margin: 24px;
+}
+
+.cite {
+    width: 50%;
+    margin: 0;
+}
